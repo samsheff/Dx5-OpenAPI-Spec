@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Downloaded frontend bundles (recreated by scripts/download-assets.sh)
+artifacts/bundles/
+distillx5-api/artifacts/bundles/
+
+# Downloaded source HTML (recreated by fetching the app)
+artifacts/html/
+distillx5-api/artifacts/html/
+
+# Generated analysis intermediates (recreated by scripts/extract_method_calls.py, normalize_endpoints.py)
+artifacts/analysis/
+distillx5-api/artifacts/analysis/
